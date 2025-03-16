@@ -1,0 +1,7 @@
+python inference.py \
+--model_type htdemucs \
+--config_path configs/config_htdemucs.yaml \
+--input_folder audio_test \
+--store_dir separation_results/htdemucs \
+--start_check_point model_weights/checkpoint_htdemucs_epoch_194_50k_steps.ckpt \
+--device_ids 0
